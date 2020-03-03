@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 
 export default function About(props) {
-   let name, profilepic, bio, street, city, state, zip, phone, email, resumeDownload;
+   let name, profilepic, bio, street, city, province, zip, phone, email, resumeDownload;
    if (props.data) {
       name = props.data.name;
       profilepic = "images/" + props.data.image;
       bio = props.data.bio;
       street = props.data.address.street;
       city = props.data.address.city;
-      state = props.data.address.state;
+      province = props.data.address.province;
       zip = props.data.address.zip;
       phone = props.data.phone;
       email = props.data.email;
@@ -36,9 +36,7 @@ export default function About(props) {
                      <span>{name}</span>
                      <br />
                      <span>
-                     {street}
-                     <br />
-                     {city} {state}, {zip}
+                        {city}, {province}
                      </span>
                      <br />
                      <span>{phone}</span>

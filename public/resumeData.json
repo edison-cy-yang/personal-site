@@ -1,17 +1,17 @@
 {
   "main": {
-    "name":"Edison",
+    "name":"Edison Yang",
     "occupation":"Full Stack Software Developer",
     "description":"I'm an enthusiastic individual who is passionate about learning new technologies and taking on new challenges.",
     "image":"profilepic.jpg",
-    "bio":"Blah",
+    "bio":"Full stack developer with a background in computer science and consulting. I'm an enthusiastic individual who is passionate about learning new technologies and taking on new challenges. I am always looking to explore how AI can add value to technologies. Please feel free to message me for projects or exciting opportunities.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "edison.cy.yang@gmail.com",
     "phone": "604-123-4567",
     "address":{
       "street":"(Your Street)",
       "city":"Vancouver",
-      "state":"(Your State)",
+      "province":"BC",
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "https://github.com/edison-cy-yang",
