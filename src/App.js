@@ -10,6 +10,8 @@ import Contact from './Components/Contact';
 import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
 
+import axios from 'axios';
+
 class App extends Component {
 
   constructor(props){
@@ -39,8 +41,16 @@ class App extends Component {
     });
   }
 
+  getTestData() {
+    axios.get('./resumeData.json').then(res => {
+      console.log(res.data);
+      this.setState({resumeData: res.data});
+    });
+  }
+
   componentDidMount(){
-    this.getResumeData();
+    // this.getResumeData();
+    this.getTestData();
   }
 
   render() {
