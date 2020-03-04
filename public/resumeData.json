@@ -55,42 +55,74 @@
     ],
     "skills":[
       {
-        "name":"Git",
-        "level":"60%"
+        "name":"Java"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name":"JavaScript"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "name":"Ruby"
       },
       {
-        "name":"CSS",
-        "level":"90%"
+        "name":"Python"
       },
       {
-        "name":"HTML5",
-        "level":"80%"
+        "name":"C#"
       },
       {
-        "name":"VueJs",
-        "level":"50%"
+        "name":"MATLAB"
       },
       {
-        "name":"MongoDB",
-        "level":"80%"
+        "name":"React"
+      },
+      {
+        "name":"React Native"
+      },
+      {
+        "name":"Node.js"
+      },
+      {
+        "name":"Express"
+      },
+      {
+        "name":"Ruby on Rails"
+      },
+      {
+        "name":"Socket.io"
+      },
+      {
+        "name":"PostgreSQL"
+      },
+      {
+        "name":"MongoDB"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Locus",
+        "category":"Photo-sharing app powered by image recognition AI for photography enthusiasts",
+        "image":"Locus.PNG",
+        "url":"https://github.com/edison-cy-yang/locus"
+      },
+      {
+        "title": "Interview Scheduler",
+        "category": "Interview scheduling app built with React",
+        "image": "interview-scheduler.png",
+        "url": "https://eloquent-hawking-1455c6.netlify.com/"
+      },
+      {
+        "title": "Food ordering app",
+        "category": "Food ordering app where customers and restaurants receive SMS notification regarding incoming order & order confirmation",
+        "image": "food-ordering.png",
+        "url": "https://github.com/edison-cy-yang/food-ordering-app"
+      },
+      {
+        "title": "Watch Buddy",
+        "category": "App that allows people to watch/pause Youtube videos in synchronization",
+        "image": "watch-buddy.png",
+        "url": "https://github.com/edison-cy-yang/video-sync"
       }
     ]
   },
