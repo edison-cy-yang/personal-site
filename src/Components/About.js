@@ -39,8 +39,6 @@ export default function About(props) {
                         {city}, {province}
                      </span>
                      <br />
-                     <span>{phone}</span>
-                     <br />
                      <span>{email}</span>
                   </p>
                </div>

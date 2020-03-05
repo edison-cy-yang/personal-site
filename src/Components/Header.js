@@ -45,7 +45,7 @@ export default function Header(props) {
           </li>
           <li>
             <a className="smoothscroll" href="#portfolio">
-              Works
+              Projects
             </a>
           </li>
         </ul>
