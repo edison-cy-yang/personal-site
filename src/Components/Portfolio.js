@@ -30,7 +30,7 @@ export default function Portfolio(props) {
     <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>Check Out Some of My Works.</h1>
+          <h1>Check out the projects I've done</h1>
 
           <div
             id="portfolio-wrapper"
